@@ -100,7 +100,7 @@ nav ul {
 p{
     text-align: center;
 }
-iframe {
+iframe, audio, video {
     display: block;
     margin: 20px auto;
     border: 4px solid #ccc;
@@ -160,4 +160,27 @@ form input[type="reset"] {
 form input[type="submit"]:hover,
 form input[type="reset"]:hover {
     opacity: 0.9;
+}
+
+nav ul li a img {
+
+    height: 300 px;
+    max-width: 100 px;
+    max-height: 10 px;
+    border-radius: 30%;
+    display: block;
+    height: auto;
+}
+nav ul li a {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+section {
+    padding: 20 px;
+    max-width: 50 px;
+}
+img {
+
+    border-radius: 8 px;
 }
