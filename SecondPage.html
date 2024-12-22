@@ -22,9 +22,22 @@
     <br>Address: <br>
     <input type="text" name="Email" id="tab">
     <br>Recent Degree: <br>
-    <input type="text" name="Degree" id="tab">
+    <select name="Degree" id="Degree">
+        <option value="FSC (P.ENG)">FSC (P.ENG)</option>
+        <option value="ICS">ICS</option>
+        <option value="FSC (P.MED)">FSC (P.MED)</option>
+    </select> <br>
     <br>Email: <br>
-    <input type="email" name="Email" id="tab">
+    <input type="email" name="Email" id="tab"> <br>
+    Offered Degree: <br>
+    <select name="Offered Degree" id="Offered Degree">
+        <option>Select Program</option>
+        <option value="BS AI">BS AI</option>
+        <option value="BS CS">BS CS</option>
+        <option value="BS CY">BS CY</option>
+    </select> <br> <br>
+    <label for="info">Additional Information: (Optional)</label> <br>
+    <textarea name="info" id="info" cols="30" rows="5"></textarea> <br>
     <br> Attach your Documents: <br>
     <input type="file" name="File" id="tab">
     <br><br>
@@ -32,7 +45,7 @@
     <input type="submit" value="Submit">
 </form>
 
-<h2>Video about our University</h2>
+<h2>Video about our University (From YouTube)</h2>
 
 <iframe width="560" height="315"
         src="https://www.youtube.com/embed/WzIxL0EW5yM"
@@ -41,7 +54,20 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen>
 </iframe>
+<br>
+<br>
 
+<h2>Audio from PC</h2>
+<audio controls>
+
+    <source src="assets\audio.mp3">
+</audio>
+<br>
+<br>
+<h2>Video from PC xD</h2>
+<video width="560" height="315" controls>
+    <source src="assets\video.mp4">
+</video>
 
 </body>
 </html>
